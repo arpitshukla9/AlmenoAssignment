@@ -1,0 +1,16 @@
+txn_id,date,merchant,amount,currency,status,category,account_id,notes
+TXN001,12-01-2024,Swiggy,450,inr,success,Food,ACC1,
+TXN002,2024/01/13,Amazon,1200,INR,SUCCESS,Shopping,ACC1,
+TXN003,14-01-2024,Ola,$25,USD,success,,ACC1,SUSPICIOUS
+TXN004,2024/01/15,IRCTC,$40,usd,SUCCESS,,ACC1,
+TXN005,16-01-2024,Starbucks,300,INR,pending,Food,ACC2,
+TXN006,17-01-2024,Big Bazaar,2200,inr,SUCCESS,,ACC2,
+TXN007,18-01-2024,Uber,180,INR,FAILED,Transport,ACC2,
+TXN008,2024/01/19,Netflix,$15,USD,success,Entertainment,ACC3,
+TXN009,20-01-2024,Amazon,1200,INR,SUCCESS,Shopping,ACC1,
+TXN010,2024/01/13,Amazon,1200,INR,SUCCESS,Shopping,ACC1,
+,21-01-2024,Cash ATM,5000,INR,SUCCESS,Cash Withdrawal,ACC2,Duplicate?
+TXN012,22-01-2024,Swiggy,9000,INR,SUCCESS,,ACC2,SUSPICIOUS
+TXN013,23-01-2024,Electricity Board,1500,inr,success,Utilities,ACC3,
+TXN014,2024/01/24,Flipkart,$60,USD,SUCCESS,,ACC3,
+TXN015,25-01-2024,Ola,300,inr,success,Transport,ACC3,
