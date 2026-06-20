@@ -2,8 +2,6 @@ FROM python:3.12-slim
 
 WORKDIR /code
 
-# psycopg2-binary needs libpq at runtime; build-essential keeps the image
-# resilient if a wheel isn't available for the platform.
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libpq-dev gcc \
     && rm -rf /var/lib/apt/lists/*

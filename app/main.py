@@ -17,9 +17,6 @@ app = FastAPI(
 
 @app.on_event("startup")
 def on_startup():
-    # For an assignment-scope project, create_all is sufficient. In a real
-    # production system this would be replaced by Alembic migrations run as
-    # a separate deploy step (see README "Next Iteration" notes).
     Base.metadata.create_all(bind=engine)
 
 
